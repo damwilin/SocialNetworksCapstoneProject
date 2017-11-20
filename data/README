@@ -1,0 +1,12 @@
+DATA SOURCE
+-------------------
+
+facebook_ucsd.txt
+This graph contains Facebook friendships between students at UCSD in 2005. 
+This data was originally stored in a Matlab sparse matrix; however, this was 
+processed using Python to create a more suitable format for reading with Java.
+The edges in this file are directed; however, each edge also appears in reverse
+order, making the final result undirected.
+Source: https://archive.org/details/oxford-2005-facebook-matrix
+Citation: Facebook data scrape related to paper "The Social Structure of Facebook 
+Networks", by Amanda L. Traud, Peter J. Mucha, Mason A. Porter.
